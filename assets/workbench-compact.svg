@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180" role="img" aria-labelledby="title desc">
+  <title id="title">Naman Shrimal — the workbench</title>
+  <desc id="desc">Curious ideas. Useful tools. A little trial and error.</desc>
+  <rect width="480" height="180" rx="10" fill="#141b22"/>
+  <text x="26" y="37" fill="#98d5bd" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">THE WORKBENCH</text>
+  <text x="24" y="92" fill="#f1f4f6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="650" letter-spacing="-1">Naman Shrimal.</text>
+  <g fill="#b1bec8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">
+    <text x="26" y="128">Curious ideas. Useful tools.</text>
+    <text x="26" y="153">A little trial and error.</text>
+  </g>
+  <path d="M393 46h14V32h28" fill="none" stroke="#98d5bd" stroke-width="2"/>
+  <circle cx="435" cy="32" r="3" fill="#98d5bd"/>
+</svg>

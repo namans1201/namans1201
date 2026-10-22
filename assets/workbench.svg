@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="190" viewBox="0 0 960 190" role="img" aria-labelledby="title desc">
+  <title id="title">Naman Shrimal — the workbench</title>
+  <desc id="desc">A quiet space for curious ideas, useful tools, and experiments in code.</desc>
+  <rect width="960" height="190" rx="12" fill="#141b22"/>
+  <g fill="none" stroke="#29343e" stroke-width="1">
+    <path d="M700 0v190M740 0v190M780 0v190M820 0v190M860 0v190M900 0v190M940 0v190M680 30h280M680 70h280M680 110h280M680 150h280"/>
+  </g>
+  <path d="M740 110h40V70h80v40h40" fill="none" stroke="#98d5bd" stroke-width="2"/>
+  <g fill="#98d5bd">
+    <circle cx="740" cy="110" r="4"/>
+    <circle cx="900" cy="110" r="4"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">
+    <text x="40" y="39" fill="#98d5bd">THE WORKBENCH</text>
+    <text x="740" y="166" fill="#83939f" letter-spacing="1">idea → experiment</text>
+  </g>
+  <text x="38" y="105" fill="#f1f4f6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="46" font-weight="650" letter-spacing="-1.5">Naman Shrimal.</text>
+  <text x="40" y="147" fill="#b1bec8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Curious ideas. Useful tools. A little trial and error.</text>
+</svg>

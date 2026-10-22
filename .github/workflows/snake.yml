@@ -5,10 +5,8 @@
 #   snake-light.svg   black snake, grey dots   (light mode)
 #   snake-dark.svg    white snake, grey dots   (dark mode)
 #
-# ONE-TIME SETUP - the snake 404s until this is done:
-#   Settings -> Actions -> General -> Workflow permissions
-#     -> "Read and write permissions" -> Save
-#   Then: Actions tab -> "Contribution Snake" -> Run workflow
+# The job declares its write permission below and uses GITHUB_TOKEN.
+# Run manually from Actions -> Contribution Snake when needed.
 #
 # github_user_name uses the repository owner, so this file needs no edit.
 # ═══════════════════════════════════════════════════════════════════════════
