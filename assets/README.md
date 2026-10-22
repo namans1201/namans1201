@@ -3,6 +3,7 @@
 Edit the root `README.md` directly. The active design is Compact; `designs/editorial/` preserves the separate Editorial concept for @Namans12.
 
 - `naman-intro.gif` is the unmodified original animation, copied from `Namans12/Namans12/assets/naman-intro.gif`.
+- `intro-title-*.svg` renders the greeting without GitHub’s heading rule crossing the animation.
 - `buttons/` and `projects/` contain self-contained SVGs, including light, dark, and narrow-screen variants. Run `python3 scripts/make_profile_assets.py` from the repository root to rebuild them and the saved Editorial assets. The script does not overwrite either README.
 - `generated/` holds the last successful contribution cards and aggregate `stats.json`. Generate with `python3 scripts/profile_stats.py` using an authenticated `gh` CLI. No third-party renderer or Vercel instance is involved.
 - `.github/workflows/profile-stats.yml` refreshes the cards every six hours, commits only `assets/generated/`, and does not trigger itself. It uses the built-in `GITHUB_TOKEN` and declares `contents: write`. Branch rules must allow that workflow's updates. Failed data retrieval leaves the published cards untouched. Initial snapshots are committed with the design so cards exist before the first scheduled run.

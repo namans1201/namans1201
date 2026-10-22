@@ -2,7 +2,10 @@
 
 <img align="right" src="assets/naman-intro.gif" width="390" alt="An animated Naman coding at his desk, surrounded by books and a Rubik's cube.">
 
-# Hey, I'm Naman.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-title-dark.svg">
+  <img src="assets/intro-title-light.svg" width="360" height="54" alt="Hey, I'm Naman.">
+</picture>
 
 I build web tools and explore AI agents, memory, and the ideas in between.
 
@@ -12,7 +15,7 @@ I build web tools and explore AI agents, memory, and the ideas in between.
 
 ### What I'm exploring
 
-**MCPs · Agent loops · Reinforcement learning**
+MCP integrations · Agent workflows · Reinforcement learning
 
 ### Selected projects
 
@@ -20,9 +23,7 @@ I build web tools and explore AI agents, memory, and the ideas in between.
 
 <a href="https://github.com/namans1201/llm"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/agent-memory-dark-compact.svg"><img src="assets/projects/agent-memory-light-compact.svg" width="400" alt="Agent memory — An experiment in what agents remember. Python, Neo4j, and Groq."></picture></a> <a href="https://github.com/namans1201/antigravity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/antigravity-dark-compact.svg"><img src="assets/projects/antigravity-light-compact.svg" width="400" alt="antigravity — Particle fields and playful cursor interactions. JavaScript and React."></picture></a>
 
-<br>
-
-<a href="https://github.com/namans1201?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/repositories-dark.svg"><img src="assets/buttons/repositories-light.svg" width="130" height="38" alt="All projects"></picture></a>
+<a href="https://github.com/namans1201?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/repositories-dark.svg"><img src="assets/buttons/repositories-light.svg" width="116" height="38" alt="All projects"></picture></a>
 
 ### Contributions & consistency
 
@@ -39,7 +40,9 @@ I build web tools and explore AI agents, memory, and the ideas in between.
 </picture>
 
 <details>
-<summary>A few milestones along the way</summary>
+<summary>&nbsp; A few milestones along the way</summary>
+
+<br>
 
 - Databricks Certified Data Engineer Associate
 - Microsoft Azure AI Engineer Associate · Azure AI Fundamentals
@@ -49,4 +52,12 @@ I build web tools and explore AI agents, memory, and the ideas in between.
 
 </details>
 
-<sub>Main account: <a href="https://github.com/Namans12">@Namans12 ↗</a> · <a href="mailto:namans1201@gmail.com">Say hello</a></sub>
+<br>
+
+<div align="center">
+
+**Have an idea worth building? Let's talk.**
+
+<a href="https://github.com/Namans12"><img src="assets/buttons/main-profile.svg" width="142" height="38" alt="Explore my main profile: @Namans12"></a> <a href="mailto:namans1201@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img src="assets/buttons/email-light.svg" width="80" height="38" alt="Email Naman"></picture></a>
+
+</div>

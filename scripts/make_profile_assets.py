@@ -16,10 +16,7 @@ def button(label, width, primary=False, dark=False, editorial=False):
     ink = '#ffffff' if primary else ('#e6edf3' if dark else '#24292f')
     border = background if primary else ('#30363d' if dark else '#d1d9e0')
     body = f'<rect x=".5" y=".5" width="{width-1}" height="37" rx="5" fill="{background}" stroke="{border}"/>'
-    if label == 'All projects ↗':
-        body += f'<g fill="{ink}" font-family="{FONT}" font-size="12" font-weight="600"><text x="15" y="24">All projects</text><text x="{width-16}" y="24" text-anchor="end">↗</text></g>'
-    else:
-        body += f'<text x="{width/2}" y="24" text-anchor="middle" fill="{ink}" font-family="{FONT}" font-size="12" font-weight="600">{escape(label)}</text>'
+    body += f'<text x="{width/2}" y="24" text-anchor="middle" fill="{ink}" font-family="{FONT}" font-size="12" font-weight="600">{escape(label)}</text>'
     return svg(width, 38, label, body)
 
 
@@ -51,7 +48,7 @@ def main():
         for label,width,key in [('LinkedIn',100,'linkedin'),('Email',80,'email')]:
             (buttons/f'{key}-{theme}.svg').write_text(button(label,width,dark=dark))
             (editorial/f'{key}-{theme}.svg').write_text(button(label,width,dark=dark))
-        (buttons/f'repositories-{theme}.svg').write_text(button('All projects ↗',130,dark=dark))
+        (buttons/f'repositories-{theme}.svg').write_text(button('All projects ↗',116,dark=dark))
         for key,name,description,stack in [
             ('clip-clap','clip-clap','A personal clipboard for snippets, code, and diagrams.','Next.js · Supabase'),
             ('notion-like','notion-like','Slash commands, callouts, and collapsible blocks.','React · TypeScript'),
@@ -59,6 +56,9 @@ def main():
             ('antigravity','antigravity','Particle fields and playful cursor interactions.','JavaScript · React')]:
             (projects/f'{key}-{theme}.svg').write_text(project(name,description,stack,dark))
             (projects/f'{key}-{theme}-compact.svg').write_text(project(name,description,stack,dark,compact=True))
+        title_ink = '#e6edf3' if dark else '#1f2328'
+        title = f'<text x="0" y="38" fill="{title_ink}" font-family="{FONT}" font-size="32" font-weight="650" letter-spacing="-.8">Hey, I&#39;m Naman.</text>'
+        (ROOT/f'assets/intro-title-{theme}.svg').write_text(svg(360,54,"Hey, I'm Naman.",title))
         paper, ink, muted, accent = ('#0d1117','#e6edf3','#a4aeb9','#eda779') if dark else ('#ffffff','#1f2328','#59636e','#a44e26')
         body = f'<rect width="840" height="228" fill="{paper}"/><path d="M2 20v188" stroke="{accent}" stroke-width="4"/>'
         body += f'<g font-family="{FONT}"><text x="28" y="38" fill="{muted}" font-size="13" letter-spacing="2">NAMAN SHRIMAL / @Namans12</text><text x="26" y="106" fill="{ink}" font-size="48" font-weight="650" letter-spacing="-1">Always building.</text><text x="26" y="161" fill="{ink}" font-size="48" font-weight="650" letter-spacing="-1">Always curious.</text><text x="28" y="203" fill="{muted}" font-size="18">Web development · AI agents · Experiments in code</text></g>'
