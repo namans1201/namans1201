@@ -1,44 +1,45 @@
-<!-- Edit this file directly. All artwork is stored in assets/; only the snake is generated. -->
+<!-- Edit this file directly. Buttons and project artwork: scripts/make_profile_assets.py. -->
+
+<img align="right" src="assets/naman-intro.gif" width="390" alt="An animated Naman coding at his desk, surrounded by books and a Rubik's cube.">
+
+# Hey, I'm Naman.
+
+I build web tools and explore AI agents, memory, and the ideas in between.
+
+<a href="https://github.com/Namans12"><img src="assets/buttons/main-profile.svg" width="142" height="38" alt="Main profile: @Namans12"></a> <a href="https://www.linkedin.com/in/naman-shrimal12/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img src="assets/buttons/linkedin-light.svg" width="100" height="38" alt="LinkedIn"></picture></a> <a href="mailto:namans1201@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img src="assets/buttons/email-light.svg" width="80" height="38" alt="Email Naman"></picture></a>
+
+<br clear="both">
+
+### What I'm exploring
+
+**MCPs · Agent loops · Reinforcement learning**
+
+### Selected projects
+
+<a href="https://github.com/namans1201/clip-clap"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/clip-clap-dark-compact.svg"><img src="assets/projects/clip-clap-light-compact.svg" width="400" alt="clip-clap — A personal clipboard for snippets, code, and diagrams. Next.js and Supabase."></picture></a> <a href="https://github.com/namans1201/notion-like"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/notion-like-dark-compact.svg"><img src="assets/projects/notion-like-light-compact.svg" width="400" alt="notion-like — Slash commands, callouts, and collapsible blocks. React and TypeScript."></picture></a>
+
+<a href="https://github.com/namans1201/llm"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/agent-memory-dark-compact.svg"><img src="assets/projects/agent-memory-light-compact.svg" width="400" alt="Agent memory — An experiment in what agents remember. Python, Neo4j, and Groq."></picture></a> <a href="https://github.com/namans1201/antigravity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/antigravity-dark-compact.svg"><img src="assets/projects/antigravity-light-compact.svg" width="400" alt="antigravity — Particle fields and playful cursor interactions. JavaScript and React."></picture></a>
+
+<br>
+
+<a href="https://github.com/namans1201?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/repositories-dark.svg"><img src="assets/buttons/repositories-light.svg" width="130" height="38" alt="All projects"></picture></a>
+
+### Contributions & consistency
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/workbench-compact.svg">
-  <img src="assets/workbench.svg" width="960" alt="Naman Shrimal — the workbench. Curious ideas. Useful tools. A little trial and error.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/generated/stats-dark-compact.svg">
+  <source media="(max-width: 600px)" srcset="assets/generated/stats-light-compact.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/stats-dark.svg">
+  <img src="assets/generated/stats-light.svg" width="100%" alt="Total contributions, current streak, and longest streak. Refreshed daily from GitHub's contribution calendar.">
 </picture>
 
-<div align="center">
-
-**[Main profile ↗ @Namans12](https://github.com/Namans12)** &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/naman-shrimal12/) &nbsp; · &nbsp; [Email](mailto:namans1201@gmail.com)
-
-<br>
-
-<img src="assets/naman-intro.gif" width="520" height="293" alt="An animated Naman coding at his desk, surrounded by books and a Rubik's cube.">
-
-*Building whatever I can until my tokens expire.*
-
-</div>
-
-### Hey, I'm Naman.
-
-This is where I turn “what if?” into something I can run. I build web tools, play with interfaces, and explore how AI agents use tools and remember things.
-
-Lately: **AI & ML · MCPs · agent loops · reinforcement learning**.
-My main profile is **[Namans12](https://github.com/Namans12)**; this account is home to more of my experiments.
-
-### On the workbench
-
-| Project | The idea |
-| :--- | :--- |
-| **[clip-clap ↗](https://github.com/namans1201/clip-clap)** | Save, search, and organise text snippets, code, and diagrams.<br><sub>Next.js · Supabase</sub> |
-| **[notion-like ↗](https://github.com/namans1201/notion-like)** | A block editor with slash commands, callouts, and syntax highlighting.<br><sub>React · TypeScript</sub> |
-| **[llm ↗](https://github.com/namans1201/llm)** | Agent memory: what to keep, what to recall, and what to forget.<br><sub>Python · Neo4j · Groq</sub> |
-| **[antigravity ↗](https://github.com/namans1201/antigravity)** | Particle fields and cursor interactions, explored five different ways.<br><sub>JavaScript · React</sub> |
-
-[Explore the rest →](https://github.com/namans1201?tab=repositories)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/namans1201/namans1201/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/namans1201/namans1201/output/snake-light.svg" width="100%" alt="An animated snake weaving through my GitHub contribution grid.">
+</picture>
 
 <details>
-<summary><b>A few milestones along the way</b></summary>
-
-<br>
+<summary>A few milestones along the way</summary>
 
 - Databricks Certified Data Engineer Associate
 - Microsoft Azure AI Engineer Associate · Azure AI Fundamentals
@@ -48,12 +49,4 @@ My main profile is **[Namans12](https://github.com/Namans12)**; this account is 
 
 </details>
 
-### One contribution at a time
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/namans1201/namans1201/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/namans1201/namans1201/output/snake-light.svg">
-  <img src="https://raw.githubusercontent.com/namans1201/namans1201/output/snake-light.svg" width="100%" alt="An animated snake weaving through my GitHub contribution grid.">
-</picture>
-
-<sub>Always happy to talk AI, trade ideas, or build something useful. [Say hello →](mailto:namans1201@gmail.com)</sub>
+<sub>Main account: <a href="https://github.com/Namans12">@Namans12 ↗</a> · <a href="mailto:namans1201@gmail.com">Say hello</a></sub>
