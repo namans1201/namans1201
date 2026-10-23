@@ -50,7 +50,7 @@ def main():
             (editorial/f'{key}-{theme}.svg').write_text(button(label,width,dark=dark))
         (buttons/f'repositories-{theme}.svg').write_text(button('All projects ↗',116,dark=dark))
         for key,name,description,stack in [
-            ('clip-clap','clip-clap','A personal clipboard for snippets, code, and diagrams.','Next.js · Supabase'),
+            ('clip-clap','ClipClap','A personal clipboard for snippets, code, and diagrams.','Next.js · Supabase'),
             ('recalllm','RecallLM','Agent memory with episodic recall and knowledge graphs.','Python · Neo4j · Groq'),
             ('scrollfolio','Scrollfolio','A scroll-animated portfolio of projects.','React · TypeScript · GSAP'),
             ('stellar-voyager','Stellar Voyager','A scroll-driven 3D voyage from Earth to Kepler-452b.','Three.js · JavaScript')]:
