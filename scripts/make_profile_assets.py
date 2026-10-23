@@ -51,9 +51,9 @@ def main():
         (buttons/f'repositories-{theme}.svg').write_text(button('All projects ↗',116,dark=dark))
         for key,name,description,stack in [
             ('clip-clap','clip-clap','A personal clipboard for snippets, code, and diagrams.','Next.js · Supabase'),
-            ('notion-like','notion-like','Slash commands, callouts, and collapsible blocks.','React · TypeScript'),
-            ('agent-memory','Agent memory','An experiment in what agents remember.','Python · Neo4j · Groq'),
-            ('antigravity','antigravity','Particle fields and playful cursor interactions.','JavaScript · React')]:
+            ('recalllm','RecallLM','Agent memory with episodic recall and knowledge graphs.','Python · Neo4j · Groq'),
+            ('scrollfolio','Scrollfolio','A scroll-animated portfolio of projects.','React · TypeScript · GSAP'),
+            ('stellar-voyager','Stellar Voyager','A scroll-driven 3D voyage from Earth to Kepler-452b.','Three.js · JavaScript')]:
             (projects/f'{key}-{theme}.svg').write_text(project(name,description,stack,dark))
             (projects/f'{key}-{theme}-compact.svg').write_text(project(name,description,stack,dark,compact=True))
         title_ink = '#e6edf3' if dark else '#1f2328'
