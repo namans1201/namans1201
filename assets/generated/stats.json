@@ -1,13 +1,13 @@
 {
   "username": "namans1201",
   "created": "2025-11-10",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "timezone": "Asia/Kolkata",
   "total": 763,
-  "current": 3,
+  "current": 0,
   "longest": 5,
-  "current_start": "2026-10-28",
-  "current_end": "2026-10-30",
+  "current_start": null,
+  "current_end": null,
   "longest_start": "2026-10-16",
   "longest_end": "2026-10-20"
 }
